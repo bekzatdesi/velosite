@@ -1,15 +1,11 @@
-* {
-    padding: 0;
-    margin: 0;
-    bottom: 0;
-    box-sizing: border-box;
-}
-
 *,
 *::after,
 *::before {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
 :focus,
@@ -34,6 +30,7 @@ body {
     height: 100%;
     width: 100%;
     font-size: 100%;
+    font-family: $fontfamily;
     line-height: 1;
     font-size: 14px;
     -ms-text-size-adjust: 100%;
@@ -63,7 +60,6 @@ button::-moz-focus-inner {
 a,
 a:visited {
     text-decoration: none;
-    color: inherit;
 }
 
 a:hover {
@@ -75,7 +71,6 @@ ul li {
 }
 
 a {
-    color: inherit;
     font-family: inherit;
 }
 

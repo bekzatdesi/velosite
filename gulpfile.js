@@ -82,8 +82,9 @@ const clear = () => {
 const server = () => {
     browserSync.init({
         server: {
-            baseDir: "dist/"
-        }
+            baseDir: "dist/",
+        },
+        notify: false
     });
 }
 
